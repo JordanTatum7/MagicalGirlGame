@@ -1,0 +1,54 @@
+# ==========================================
+# Unreal Engine Standard GitIgnore Template
+# ==========================================
+
+# Engine Generated Folders (Safe to delete, regenerate at any time)
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Package builds (Uncomment if you build inside your project folder)
+# /Builds/
+
+# Code IDE folders and user-specific configurations
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vsconfig
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Crash logs and trace files
+*.log
+*.dmp
+*.trace
+
+# Compiled source extensions
+*.obj
+*.pdb
+*.ild
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.modules
+*.target
+
+# Plugins folder specific ignores
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# SourceArt / Raw Assets (Uncomment if you keep raw source files inside the project but want to ignore them)
+# SourceArt/
